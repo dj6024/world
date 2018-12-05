@@ -1,0 +1,66 @@
+
+{% extends 'base/index.html' %}
+
+{% load static %}
+
+{% block extindexcss %}
+<link rel="stylesheet" href="{% static 'base/css/base.css' %}">
+    {% block extcss %}
+    
+    {% endblock %}
+{% endblock %}
+
+
+{% block extindexjs %}
+<script src="{% static 'base/js/base.js' %}"></script>
+
+    {% block extjs %}
+    
+    {% endblock %}
+{% endblock %}
+
+
+
+{% block body %}
+{#     头部#}
+    {% block header %}
+        <header>爱鲜蜂</header>
+    {% endblock %}
+    
+{#     主体#}
+    {% block content %}
+    
+    {% endblock %}
+{#     尾部#}
+    {% block footer %}
+        <footer>
+        <a href="#" class="a1">
+            <dl>
+                <dt><span ></span></dt>
+                <dd>首页</dd>
+            </dl>
+        </a>
+        <a href="#" class="a2">
+            <dl>
+                <dt><span ></span></dt>
+                <dd>闪够超市</dd>
+            </dl>
+        </a>
+        <a href="#" class="a3">
+            <dl>
+                <dt><span ></span></dt>
+                <dd>购物车</dd>
+            </dl>
+        </a>
+        <a href="#" class="a4">
+            <dl>
+                <dt><span ></span></dt>
+                <dd>我的</dd>
+            </dl>
+        </a>
+
+        </footer>
+    
+    {% endblock %}
+
+{% endblock %}
