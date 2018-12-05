@@ -1,0 +1,137 @@
+.usercenter{
+	width: 35px;
+    height: 100%;
+    background: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-family: '\5FAE\8F6F\96C5\9ED1';
+    z-index: 99;
+}
+.user_btn_bg{
+	background: url(../img/icon.png);
+}
+.user_top{
+	padding-top: 150px;
+}
+.user_top li{
+	position: relative;
+}
+.user_top a{
+	width: 35px;
+	display: inline-block;
+}
+.user_collection,.user_tick{
+	position: absolute;
+	display: inline-block;
+	color: #E30483;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	text-align: center;
+	width:96px;
+	height: 33px;
+	line-height: 30px;
+	right:55px;
+	top:0;
+	display: none; 
+	text-indent: -6px;
+	background:url(../img/icon.png) no-repeat 0 -370px ;
+}
+.user_bot{
+	position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+.user_bot a{
+	width: 35px;
+	display: inline-block;
+}
+.user_cs{
+	height: 120px;
+    background-position: -35px 0;
+}
+.hitao_service{
+	width: 128px;
+    height: 96px;
+    padding: 24px 0 0 12px;
+    background:url(../img/icon.png)no-repeat 0 -535px;
+    position: absolute;
+    bottom: 4px;
+    right: 55px;
+    color: #333;
+    text-indent: 0;
+    font-size: 12px;
+    line-height: 18px;
+    display: none;
+}
+.hitao_service_span{
+	display: inline-block;
+	margin: 0 auto;
+	width: 85px;
+	height: 20px;
+	background: url(../img/icon.png)no-repeat -71px 0;
+}
+.user-buy{
+	height: 120px;
+    background-position: 0 -122px;
+}
+#num{
+	position: absolute;
+	right: 12px;
+	top: 89px;
+	width: 10px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	color: red;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+.user-buy:hover{
+    background-position: -35px -122px;
+}
+.user_col{
+	height: 31px;  
+	background-position:0 -242px; 
+}
+.user_col:hover{
+	background-position:-35px -242px; 
+}
+.user_ticket{
+	height: 31px;
+	background-position: 0 -274px; 
+}
+.user_ticket:hover{
+	background-position: -35px -274px; 
+}
+
+.user_code{
+	height: 31px;
+	background-position: 0 -306px;
+}
+.user_code:hover{
+	background-position: -35px -306px;
+}
+
+.hitao_code{
+	width: 97px;
+    height: 124px;
+    background: url(../img/icon.png) no-repeat 0 -404px;
+    position: absolute;
+    bottom: 36px;
+    right:55px;
+    text-indent: 0;
+    padding: 3px 4px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    display: none;
+}
+.user_uptop{
+	height: 31px;
+	background-position: 0 -338px;
+	cursor: pointer;
+}
+.user_uptop:hover{
+	background-position: -35px -338px;
+}

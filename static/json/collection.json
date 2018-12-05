@@ -1,0 +1,216 @@
+[
+	{
+		   "id":21,
+		   "path1":"L'occitane/欧舒丹",
+		   "path2":"手霜/手膜",
+		   "collimg":"img/collection_2.jpg",
+		   "goodsimg":"img/goods_21.jpg",
+		   "cityimg":"img/city_1.png",
+		   "send":"法国直采 杭州保税仓发货", 
+		   "msg":"L'OCCITANE欧舒丹 乳木果丰凝润护手霜 30ml*2支",
+		   "desc":"欧舒丹全球畅销产品之一。蕴含20%乳木果油以及蜂蜜萃取、甜扁桃精华、椰子油、亚麻籽精华，滋润保湿迅速渗透肌肤,滋润指甲及边缘，多功能护手霜，带来非凡长效的保湿效果~",
+		   "price":"￥75.00",
+		   "price2":"￥170.00",
+		   "coll":"50",
+		   "commend":[
+		   				{
+			     		  "img":"img/b002a9057.jpg",
+			     		  "des":"L'occitane/欧舒丹 滋润护手霜套装组", 
+			     		  "price":"¥99.00"
+			     		},
+			     		{
+			     		  "img":"img/e41db391a.jpg",
+			     		  "des":"L'occitane/欧舒丹 滋润护手霜套装组",
+			     		  "price":"¥99.00"
+			     		}
+		             ],
+		    "productImg":"img/4c39ddab1.jpg",
+		    "product":[
+		     			 "img/49814a386.jpg", 
+		     			 "img/0d9b22bdd.jpg", 
+		     			 "img/2fbb06de2.jpg", 
+		     			 "img/37b02cd3c.jpg", 
+		     			 "img/3b07ef715.jpg", 
+		     			 "img/3080dc4c4.jpg", 
+		     			 "img/5c292f0c2.jpg",
+		     			 "img/d58bdf343.jpg",
+		     			 "img/2d802c73a.jpg",
+		     			 "img/817859b2f.jpg",
+		     			 "img/32424fc72.jpg",
+		     			 "img/f7bf74455.jpg",
+		     			 "img/751a2aa4e.jpg",
+		     			 "img/fb285a6e3.jpg",
+		     			 "img/60939339e.jpg"
+		   			 ]	 		   
+		},
+		{
+		   "id":22,
+		   "path1":"The Saem/得鲜",
+		   "path2":"喷雾",
+		   "collimg":"img/collection_3.jpg",
+		   "goodsimg":"img/goods_22.jpg",
+		   "cityimg":"img/city_1.png",
+		   "send":"韩国直采 杭州保税仓发货", 
+		   "msg":"The Saem/得鲜 蜗牛修护啫喱霜 300ml*2盒",
+		   "desc":"天然芦荟精华与蜗牛原液精粹的完美结合，带来加倍的护肤效果！有效修复肌肤损伤，调节肌肤油脂分泌，滋润保湿，让肌肤恢复细嫩健康！",
+		   "price":"￥39.00",
+		   "price2":"￥159.00",
+		   "coll":"34",
+		   	"commend":[
+		   				{
+			     		  "img":"img/858be6c47.jpg",
+			     		  "des":"The Saem/得鲜 蜗牛修护啫喱霜 ",
+			     		  "price":"¥99.00"
+			     		}
+		             ],
+		    "productImg":"img/cb6b2d6eb.jpg",
+		    "product":[
+		     			 "img/des_1.jpg", 
+		     			 "img/des_2.jpg", 
+		     			 "img/des_3.jpg", 
+		     			 "img/des_4.jpg", 
+		     			 "img/des_5.jpg", 
+		     			 "img/des_6.jpg", 
+		     			 "img/des_7.jpg",
+		     			 "img/des_8.jpg",
+		     			 "img/des_9.jpg",
+		     			 "img/des_10.jpg",
+		     			 "img/des_11.jpg",
+		     			 "img/des_12.jpg"
+		   			 ]	 		   
+		},
+		{
+		   "id":18,
+		   "path1":"moony/尤妮佳",
+		   "path2":"新生儿 ",
+		   "collimg":"img/collection_4.jpg",
+		   "goodsimg":"img/goods_18.jpg",
+		   "cityimg":"img/city_5.png",
+		   "send":"日本直采 杭州保税仓发货", 
+		   "msg":"moony/尤妮佳 纸尿裤nb 90片*3包 ",
+		   "desc":"深受日本妈妈欢迎的纸尿裤，吸收性超好，贴合小屁屁不测漏，日本cosme大赏入榜产品，全新开发 给宝宝最舒适的体验，更多细节，全面呵护宝宝健康，爱他就给他最好的！",
+		   "price":"￥205.00",
+		   "price2":"￥564.00",
+		   "coll":"22",
+		   "commend":[
+		   				{
+		   					"img":"img/6cabae852.jpg",
+			     		 	"des":"moony/尤妮佳 纸尿裤nb 90片",
+			     		 	"price":"¥119.00"
+		   				}
+		   			],
+		   	"productImg":"img/3fbc3ec0e.jpg",
+		   	"product":[
+		     			 "img/22ba395ff.jpg", 
+		     			 "img/80bb9261a.jpg", 
+		     			 "img/e6d0146c0.jpg", 
+		     			 "img/adf2423d9.jpg", 
+		     			 "img/3b37987a4.jpg", 
+		     			 "img/8ba110434.jpg", 
+		     			 "img/b8229dd0a.jpg",
+		     			 "img/9447e48b9.jpg",
+		     			 "img/08505be1c.jpg",
+		     			 "img/cfebe4c77.jpg",
+		     			 "img/f1d2f2f74.jpg",
+		     			 "img/77f2080f9.jpg",
+		     			 "img/0df370794.jpg"
+		   			 ]	 			
+		   					   
+		},
+		{
+		   "id":23,
+		   "path1":"金丝玉帛",
+		   "path2":"BB霜/CC霜",
+		   "collimg":"img/collection_5.jpg",
+		   "goodsimg":"img/goods_23.jpg",
+		   "cityimg":"img/city_6.png",
+		   "send":"国内现货", 
+		   "msg":"金丝玉帛 气垫BB霜 21#象牙色 30g",
+		   "desc":"太阳女神谢娜力荐，明星达人都超喜欢的气垫BB霜，各种通告赶场都靠它来打造完美裸妆！200万微气孔，细腻超自然！约会神器，随身随行，随时裸妆~",
+		   "price":"￥19.90",
+		   "price2":"￥125.00",
+		   "coll":"40",
+		   	"commend":[],
+		    "productImg":"img/7ff8d5b7e.jpg",
+		    "product":[
+		     			 "img/BB_1.jpg", 
+		     			 "img/BB_2.jpg", 
+		     			 "img/BB_3.jpg", 
+		     			 "img/BB_4.jpg", 
+		     			 "img/BB_5.jpg", 
+		     			 "img/BB_6.jpg", 
+		     			 "img/BB_7.jpg",
+		     			 "img/BB_8.jpg",
+		     			 "img/BB_9.jpg",
+		     			 "img/BB_10.jpg",
+		     			 "img/BB_11.jpg",
+		     			 "img/BB_12.jpg",
+		     			 "img/BB_13.jpg",
+		     			 "img/BB_14.jpg",
+		     			 "img/BB_15.jpg",
+		     			 "img/BB_16.jpg",
+		     			 "img/BB_17.jpg"
+		   			 ]	 		   
+		},
+		{
+		   "id":24,
+		   "path1":"Maybelline/美宝莲",
+		   "path2":"睫毛膏",
+		   "collimg":"img/collection_6.jpg",
+		   "goodsimg":"img/goods_24.jpg",
+		   "cityimg":"img/city_6.png",
+		   "send":"国内现货", 
+		   "msg":" Maybelline/美宝莲 巨密睫毛膏 9.2ml 彩妆 浓密纤长卷翘 自然持久不晕染",
+		   "desc":"男神是不是总是嫌你的眼睛不够大而有神？想不想尝试超级大眼效果？美宝莲巨密睫毛膏让你睫毛一刷即密，方便上手！全天候零晕染，温水即可轻松卸除！时刻拥有闪亮迷人大眼。",
+		   "price":"￥30.00",
+		   "price2":"￥89.00",
+		   "coll":"60",
+		   	"commend":[],
+		    "productImg":"img/e98d3257d.jpg",
+		    "product":[
+		     			 "img/1d79b45c0.jpg", 
+		     			 "img/55e734158.jpg", 
+		     			 "img/e4dbc6b14.jpg", 
+		     			 "img/c3b4b89c1.jpg", 
+		     			 "img/8285ddc41.jpg", 
+		     			 "img/97f56e0af.jpg", 
+		     			 "img/945c21718.jpg",
+		     			 "img/04b7ea2bd.jpg",
+		     			 "img/6d9a79e4e.jpg",
+		     			 "img/a2a1e86ca.jpg"
+		   			 ]	 		   
+		},
+		{
+		   "id":25,
+		   "path1":"金稻",
+		   "path2":"洁面仪",
+		   "collimg":"img/collection_7.jpg",
+		   "goodsimg":"img/goods_25.jpg",
+		   "cityimg":"img/city_6.png",
+		   "send":"国内现货", 
+		   "msg":"金稻 洁面仪 KD－3031 嗨淘定制款",
+		   "desc":"太阳女神谢娜力荐，明星达人都超喜欢的气垫BB霜，各种通告赶场都靠它来打造完美裸妆！200万微气孔，细腻超自然！约会神器，随身随行，随时裸妆~",
+		   "price":"￥19.90",
+		   "price2":"￥198.00",
+		   "coll":"76",
+		   "commend":[],
+		    "productImg":"img/da60deb22.jpg",
+		    "product":[
+		     			 "img/313551272.jpg", 
+		     			 "img/2d6dc7b23.jpg", 
+		     			 "img/2ede72726.jpg", 
+		     			 "img/a5f71e508.jpg", 
+		     			 "img/55ed81cc0.jpg", 
+		     			 "img/28af94a0d.jpg", 
+		     			 "img/6792c24e2.jpg",
+		     			 "img/41e31bc06.jpg",
+		     			 "img/4acff9d66.jpg",
+		     			 "img/3e5ff498a.jpg",
+		     			 "img/7b4dcdb28.jpg",
+		     			 "img/f0d4ae0e5.jpg",
+		     			 "img/4f7deab2e.jpg",
+		     			 "img/604a5cfd6.jpg"
+		   			 ]	 		   
+		}
+	
+]

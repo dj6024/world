@@ -1,0 +1,116 @@
+.h-footer{
+	width: 100%;
+	height: auto;
+	background: white;
+}
+
+.mod-bottom{
+	padding: 30px 0;
+	width: 990px;
+	height: 144px;
+    font-size: 14px;
+    margin: 0 auto;
+    position: relative;
+    font-family: "微软雅黑";
+}
+.mod-bottom dl{
+	width: 90px;
+    float: left;
+    padding: 0 10px 0 40px;
+}
+.mod-bottom dt{
+	color: #999;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.mod-bottom a{
+	display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    color: #000;
+    font-size: 12px;
+    
+}
+.mod-bottom a:hover{
+	color: #E30483;
+	text-decoration: underline;
+}
+.mod-bottom dl.last{
+	width: 110px;
+    text-align: center;
+    padding-left: 100px;
+}
+.h-fot-nav{
+	background: black;
+    color: white;
+    height: 38px;
+    line-height: 38px;
+    width: 100%;
+}
+.h-fot-nav-inner{
+	width: 1190px;
+	margin: 0 auto;
+	position: relative;
+}
+.h-about{
+	float: right;
+	
+}
+.h-about a{
+	display: inline-block;
+    vertical-align: middle;
+    padding: 0 1em;
+    color: white;
+    vertical-align: top;
+    font-size: 12px;
+	font-family: "微软雅黑";
+}
+.h-about a:hover{
+	background: #E30483;
+}
+.h-call{
+	color: #e30485;
+    font-weight: bold;
+}
+.h-call-em{
+	margin-right: 4px;
+    font-size: 32px;
+    vertical-align: top;
+}
+.h-call-num{
+	font-size: 18px;
+    vertical-align: top; 
+    font-family: "微软雅黑";
+}
+.h-copyright{
+	color: #9c9c9c;
+    text-align: center;
+    font-size: 12px;
+    line-height: 2;
+    margin-top: 16px;
+    font-family: "微软雅黑";
+}
+.h-copyright a{
+	color: #9c9c9c;
+}
+.h-copyright a:hover{
+	color: #E30483;
+	text-decoration: underline;
+}
+.h-footer-ccess{
+	width: 1190px;
+	margin: 20px auto;
+    border: 1px solid #eee;
+    text-align: center;
+}
+.h-footer-ccess-item{
+	padding: 0 22px;
+	display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 42px;
+    height: 34px;
+    border-left: 1px solid #eee;
+    margin: 6px 0; 
+}

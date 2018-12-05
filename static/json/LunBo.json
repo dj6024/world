@@ -1,0 +1,22 @@
+[
+	 {
+	   "img":"img/Carouse_1.jpg",
+	   "id":1,
+	   "background":"rgb(157,183,217)"
+	 },
+	  {
+	   "img":"img/Carouse_2.jpg",
+	   "id":2,
+	    "background":"rgb(226,228,248)"
+	 },
+	  {
+	   "img":"img/Carouse_3.jpg",
+	   "id":3,
+	    "background":"rgb(112,82,178)"
+	 },
+	  {
+	   "img":"img/Carouse_4.jpg",
+	   "id":4,
+	   "background":"rgb(246,247,242)" 
+	 }
+]

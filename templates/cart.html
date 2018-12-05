@@ -1,0 +1,265 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>嗨淘全球-购物车</title>
+		<link rel="stylesheet" type="text/css" href="{% static 'css/top.css' %}"/>
+		<link rel="stylesheet" type="text/css" href="{% static 'css/footer.css' %}"/>
+		<link rel="stylesheet" type="text/css" href="{% static 'css/usercenter.css' %}"/>
+		<script src="{% static 'js/jquery-1.12.0.js' %}" type="text/javascript" charset="utf-8"></script>
+		<script src="{% static 'js/jquery.cookie.js' %}" type="text/javascript" charset="utf-8"></script>
+		<script src="{% static 'js/usercenter.js' %}" type="text/javascript" charset="utf-8"></script>
+	    <script src="{% static 'js/cart.js' %}" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>
+		<!--头部-->
+		<div class="h-top">			
+			<div class="site_nav">
+				<div class="u-info">
+					<a href="login.html">登录</a>
+					<a href="register.html">免费注册</a>					
+					<a href="#" style="margin-left: 10px;"><i class="icon-shouji"></i>手机版</a> 
+				</div> 
+				<div class="quick_menu"> 
+					<a href="#">我的订单</a>
+					<span class="quick_menu_span">|</span>
+					<a href="#">我的优惠券</a>
+					<span class="quick_menu_span">|</span>
+					<a href="#">我的收藏</a>
+					<span class="quick_menu_span">|</span>
+					<a href="#">帮助中心</a> 
+				</div>
+			</div>
+		</div>
+		
+		<!--login部分-->
+		<div class="head-top" style="border-bottom: 2px solid #000;">
+			<div class="head-top-cont">
+				<div class="h-login">
+					<a href="index.html" target="_blank">
+						<img src="{% static 'img/Logo.png' %}"/>
+					</a>
+					<div class="solog"></div>
+				</div>
+				<div class="hd-right">
+					<div class="search-bar">
+						<input type="text" placeholder="搜索商品"/>
+						<button id="h-btn">搜索</button>
+					</div>
+					<div class="hitBox">
+						<ul class="hitBox-list">
+							<li><a href="#">面霜|</a></li>
+							<li><a href="#">面膜|</a></li>
+							<li><a href="#">洁面|</a></li>
+							<li><a href="#">奶粉|</a></li>
+							<li><a href="#">纸尿裤|</a></li>
+							<li><a href="#">辅食|</a></li>
+							<li><a href="#">宝宝营养|</a></li>
+							<li><a href="#">唇部彩妆|</a></li>
+							<li><a href="#">身体护理|</a></li>
+							<li><a href="#">香氛</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		<!--购物车列表-->
+		<!--region -->
+		<link rel="stylesheet" type="text/css" href="{% static 'css/cart.css' %}"/>
+		<div class="stepcart">
+			<div class="steplist">
+				<div class="step_show"></div>
+				<span class="one">1.购物袋</span>
+				<span class="two">2.确认订单信息</span>
+				<span class="three">3.付款</span>
+			</div>
+		</div>
+		
+		<div class="mod_main">
+			
+			<div class="address_onne" style="display: none;">
+				<i class="iconfont"><img src="{% static 'img/cart.png' %}"/></i>
+				<p class="text">购物袋空空的</p>
+				<p style="font-size: 14px;">喜欢的宝贝，收到碗里来！</p>
+				<a href="./" class="add-address">去逛逛</a>
+			</div>
+			
+			<div class="w990">
+				<table class="tb_cart">
+					<thead>
+						<tr>
+		                    <th width="5%">
+		                        <input type="checkbox" id="checkall" checked="checked">
+		                        <label for="checkall">全选</label>
+		                    </th>
+		                    <th width="43%">商品</th>
+		                    <th width="16%">单价</th>
+		                    <th width="12%">数量</th>
+		                    <th width="12%">小计</th>
+		                    <th width="12%">操作</th>
+		                </tr>
+					</thead>
+				</table>
+			</div>
+			
+			<div class="w990">
+				<h1 class="mod_main_cart">
+	                <input type="checkbox" value="2" checked="checked">
+	                <label>杭州保税仓</label>
+	                <span id="topic">
+	                	<span>本仓库超￥2000了，请分开结算，海关规定本仓库商品总计不超过￥2000才可以过关哦！</span>
+               			<i></i>	
+	                </span>
+                </h1>
+                <div class="mod_tb_cart">
+                	<table width="100%">
+                		<tbody>                			
+                			<!--第二行-->
+                			<tr>
+		                        <td colspan="6" class="cart-right">
+		                            <span>商品金额：<strong class="goods_amount">¥0.00</strong></span>
+		                        </td>
+		                    </tr>
+                		</tbody>
+                	</table>
+                </div>
+			</div>
+
+            <div class="mod_cart_foot">
+            	<a href="./" class="btn_goshopping" title="继续购物">继续购物</a>
+            
+                <div class="mod_cart_foot_right">
+                	<div class="right">
+                		<a href="" class="btn_count" title="去结算"><span>去结算</span></a>
+                	</div>
+                </div>
+                
+                <div class="right">
+                	<ul>
+                        <li>
+                                                                      已选<span id="goods_sum">0</span>件商品，合计（不含运费及税费）
+                            <span class="total_price">
+                                <i>¥</i><span id="pay_amount">0.00</span>
+                            </span>
+                        </li>
+                        <li class="shoptotal">
+				                            商品总计：¥<span id="goods_amount">0.00</span>
+				                            活动优惠：¥<span id="discount">0.00</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+			
+			
+			
+			<div class="mod_history">
+				<div class="tit_history">热销推荐</div>
+				<ul>				
+				</ul>
+			</div>
+		</div>
+		
+		
+		<!--遮罩层-->
+		<div class="pop_over"></div>
+		<div class="pop_info">
+			<span class="close" title="点击关闭">&times;</span>
+			<div class="bd">
+				<p class="txt">确认将商品移出购物袋？</p>
+				<div class="btn_action">
+					<a href="" class="true">确定</a>
+					<a href="" class="false">取消</a>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--底部和右边栏-->
+		<div class="h-footer">
+		    <div class="h-fot-nav">
+		    	<div class="h-fot-nav-inner">
+		    		<div class="h-about">
+
+		    			<a href="#">公司简介</a>
+		    			<a href="#">联系我们</a>
+		    			<a href="#">大事记</a>
+		    			<a href="#">人才招募</a>
+		    			<a href="#">帮助中心</a>
+		    			<a href="#">法律申明</a>
+		    			<a href="#">合作专区</a>
+		    			<a href="#">友情链接</a>
+		    		</div>
+		    		<div class="h-call">
+		    			<i class="h-call-em"><img src="{% static 'img/phone.png' %}"/></i>
+		    			<span class="h-call-num">4008-006-006</span>
+		    		</div>
+		    	</div>
+		    </div>
+		
+		    <p class="h-copyright">
+		    	Copyright © 2010 - 2016, 版权所有 HITAO.TOP&nbsp;&nbsp;&nbsp;&nbsp;湘ICP备10012668号-3&nbsp;&nbsp;嗨淘全球网　|　
+		    	<a href="#">营业执照</a>
+		    </p>
+		    
+		    <div class="h-footer-ccess">
+		    	<a href="#" class="h-footer-ccess-item">
+		    		<img src="{% static 'img/brand_1.png' %}"/>
+		    	</a>
+		    	<a href="#" class="h-footer-ccess-item">
+		    		<img src="{% static 'img/brand_2.png' %}"/>
+		    	</a>
+		    	<a href="#" class="h-footer-ccess-item">
+		    		<img src="{% static 'img/brand_3.png' %}"/>
+		    	</a>
+		    	<a href="#" class="h-footer-ccess-item">
+		    		<img src="{% static 'img/brand_4.png' %}"/>
+		    	</a>
+		    </div>
+		
+		
+		    <div class="usercenter">
+		    	<ul class="user_top">
+		    		<li>
+		    			<a href="#" class="user_cs user_btn_bg" title="在线客服"></a> 
+		    			<div class="hitao_service">
+		    				<span class="hitao_service_span"></span> <br />
+       						 时间：9:00-24:00 <br />
+       						 热线：4008-006-006   
+		    			</div>
+		    		</li>
+		    		<li>
+		    			<a href="cart.html" class="user-buy user_btn_bg" title="购物袋"></a>
+		    			<span id="num">0</span>
+		    		</li>
+		    		<li>
+		    			<a href="#" class="user_col user_btn_bg" title="我的收藏"></a>
+		    			<div class="user_collection">我的收藏</div>  
+		    		</li>
+		    		<li>
+		    			<a href="#" class="user_ticket user_btn_bg" title="我的优惠券"></a>
+		    			<div class="user_tick">我的优惠券</div>  
+		    		</li>
+		    	</ul> 
+		    	<ul class="user_bot">
+		    		<li>
+		    			<a href="#" class="user_code user_btn_bg" title="二维码"></a>
+		    			<div class="hitao_code">
+		    				<img src="{% static 'img/QRCode.png' %}" style="width: 93px; height: 93px;"/>
+		    				手机注册有礼
+		    			</div>
+		    		</li>
+		    		<li>
+		    			<a class="user_uptop user_btn_bg" title="回到顶部"></a> 
+		    		</li>
+		    	</ul>
+		    </div>
+		</div>
+	</body>
+</html>
