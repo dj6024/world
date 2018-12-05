@@ -34,25 +34,25 @@
 {#     尾部#}
     {% block footer %}
         <footer>
-        <a href="#" class="a1">
+        <a href="{% url 'tao:home' %}" class="a1">
             <dl>
                 <dt><span ></span></dt>
                 <dd>首页</dd>
             </dl>
         </a>
-        <a href="#" class="a2">
+        <a href="{% url 'tao:market' %}" class="a2">
             <dl>
                 <dt><span ></span></dt>
                 <dd>闪够超市</dd>
             </dl>
         </a>
-        <a href="#" class="a3">
+        <a href="{% url 'tao:cart' %}" class="a3">
             <dl>
                 <dt><span ></span></dt>
                 <dd>购物车</dd>
             </dl>
         </a>
-        <a href="#" class="a4">
+        <a href="{% url 'tao:mine' %}" class="a4">
             <dl>
                 <dt><span ></span></dt>
                 <dd>我的</dd>

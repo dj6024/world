@@ -1,0 +1,8 @@
+footer .a1 span {
+	background: url(/static/base/img/home1.png) no-repeat center;
+	background-size: 1.25rem;
+}
+footer .a1 dd
+{
+color: #ffd601;
+}
